@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gunnerside Capital</title>
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    body {
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        background-color: white;
+    }
+    .navbar {
+        background-color: #111;
+    }
+    .navbar-brand {
+        font-weight: bold;
+        color: black;
+    }
+    .hero-section {
+        text-align: center;
+        padding: 50px 10px;
+        background: url('https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg') no-repeat center center;
+        background-size: cover; /* https://images.pexels.com/photos/12797726/pexels-photo-12797726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 */
+
+        min-height: 90vh; 
+        animation: fadeIn 1.5s ease-in-out;
+    }
+    h1, h2 {
+        font-family: 'Playfair Display', serif;
+        animation: fadeIn 2.5s ease-in-out;
+    }
+    .hero-logo img {
+        max-width: 100%;
+        height: auto;
+        animation: fadeIn 2s ease-in-out;
+    }
+    .content-section, .contact-section, .footer {
+      text-align:left;
+        animation: fadeIn 2s ease-in-out;
+        padding-top: 2vh;
+    }
+    .footer {
+      text-align:center;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        font-size: 0.8em;
+    }
+</style>
+</head>
+
+<body>
+  <section class="hero-section">
+    <div class="container hero-logo">
+      <img src="gcmono.svg" alt="Gunnerside Capital Logo">
+    </div>
+  </section>
+
+<!-- Investment Philosophy Section -->
+<section id="philosophy" class="content-section">
+  <div class="container">
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p>For more information about our services and investment opportunities, please reach out to us:</p>
+    <p>Email: contact@gunnersidecapital.com</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2023 Gunnerside Capital. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
