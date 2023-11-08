@@ -28,12 +28,11 @@
         color: black;
     }
     .hero-section {
-        text-align: center;
-        padding: 50px 10px;
-        background: url('https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg') no-repeat center center;
-        background-size: cover; /* https://images.pexels.com/photos/12797726/pexels-photo-12797726.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 */
-
-        min-height: 90vh; 
+    text-align: center;
+    padding: 50px 10px;
+    position: relative;
+    min-height: 90vh;
+    overflow: hidden; 
         animation: fadeIn 1.5s ease-in-out;
     }
     h1, h2 {
@@ -61,11 +60,16 @@
 </head>
 
 <body>
-  <section class="hero-section">
-    <div class="container hero-logo">
-      <img src="gcmono.svg" alt="Gunnerside Capital Logo">
-    </div>
-  </section>
+<section class="hero-section">
+  <div class="container hero-logo">
+    <img src="gcmono.svg" alt="Gunnerside Capital Logo">
+  </div>
+  <video autoplay muted loop playsinline id="heroVideo">
+    <source src="videobackground1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</section>
+
 
 <!-- Investment Philosophy Section -->
 <section id="philosophy" class="content-section">
